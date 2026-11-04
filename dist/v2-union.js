@@ -1,0 +1,13 @@
+console.log("<br>");
+console.log("Greetings from Union Types!: Start");
+const id = 123;
+console.log(`Basic Union Type Example: ${id}`);
+const role = "manager";
+console.log(`Literal Union Type Example: ${role}`);
+const user = { id: 123, role: "admin", privileges: ["create", "delete"] };
+console.log(`Object Union Type Example": ${user.id}`);
+console.log(`Object Union Type Example": ${user.role}`);
+console.log(`Object Union Type Example": ${user.privileges}`);
+console.log("Greetings from Union Types!: End : 04-11-26");
+console.log("<br>");
+export {};
