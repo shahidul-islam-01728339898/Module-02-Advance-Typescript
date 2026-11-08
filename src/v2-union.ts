@@ -10,7 +10,7 @@ console.log(`Basic Union Type Example: ${id}`);
 
 //* Literal Union Type Example
 type Role = "admin" | "user" | "manager";
-const role :Role ="manager";
+const role : Role ="manager";
 console.log(`Literal Union Type Example: ${role}`);
 
 
