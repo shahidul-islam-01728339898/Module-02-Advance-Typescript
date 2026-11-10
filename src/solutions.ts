@@ -1,4 +1,4 @@
-//Problem 1:
+//*Problem 1:
 const multiplyValue = (value: number, multiplier: number = 2): number => {
   return value * multiplier;
 };
@@ -7,7 +7,7 @@ console.log(multiplyValue(10, 5));
 console.log(multiplyValue(7, 0));
 console.log(multiplyValue(10));
 
-//Problem 2:
+//*Problem 2:
 const processInput = (value: string | number | boolean) => {
   if (typeof value === "string") {
     return value.trim();
@@ -27,7 +27,7 @@ console.log(processInput(7));
 console.log(processInput(true));
 console.log(processInput(false));
 
-//Problem 3:
+//*Problem 3:
 const formatCoordinate = (
   coordinateLocation: readonly [number, number, string],
 ): string => {
@@ -37,13 +37,15 @@ const formatCoordinate = (
 console.log(formatCoordinate([23.81, 90.41, "Dhaka"]));
 console.log(formatCoordinate([22.35, 91.78, "Chittagong"]));
 
+//* Problem 4
 const concatenateArrays = <T>(...arrays: T[][]): T[] => {
-  return arrays.reduce((result, array) => result.concat(array), []);
+  return arrays.flat();
 };
+
 console.log(concatenateArrays(["a", "b"], ["c", "d"]));
 console.log(concatenateArrays([1, 2], [3, 4], [5]));
 
-//Problem 7:
+//*Problem 7:
 class Employee {
   protected name: string;
   private baseSalary: number;
