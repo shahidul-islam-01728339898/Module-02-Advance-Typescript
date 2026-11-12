@@ -1,4 +1,5 @@
-import "./E-commerce-Shopping-Cart-System.js";
+import "./user-type.js";
+// import "./E-commerce-Shopping-Cart-System.js";
 // import "./solutions.js"; // 08-11-26
 // import "./Emp_Mgt_System.js"
 // import "./Bank_Account_Mgt_System.js"   // 08-11-26
